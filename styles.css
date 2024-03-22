@@ -1,0 +1,210 @@
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* Header styles */
+.home1 {
+    background-color: darkblue;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+/* Header styles  for portfolio*/
+.port1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 60px;
+    color: black;
+}
+
+.port1 img {
+    float: right;
+    margin-right: 140px; /* Adjust margin as needed */
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.port1 .text-container {
+    flex: 1; /* Take remaining space */
+}
+
+.port1 h1 {
+  font-style: italic;
+}
+
+.port1 p{
+    color: grey;
+    font-style: italic;
+}
+
+.port2 h2 {
+  color: orange;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.port2 article {
+  padding-top: 40px;
+}
+
+.preserve-whitespace {
+    white-space: pre;
+}
+
+/* Navigation styles */
+nav {
+    background-color: lightgrey;
+    padding: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+
+/* Main content styles */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sectionhome {
+    flex-basis: 69%;
+    margin-right: 20px;
+    background-color: lightblue;
+    padding: 10px 20px 10px;
+    line-height: 1.2;
+}
+
+.port2 {
+    flex-basis: 69%;
+    margin-right: 20px;
+    padding: 10px 20px 10px;
+    line-height: 1.2;
+}
+
+.sectionhome ol {
+  padding: 10px 0px 10px 20px;
+}
+
+.sectionhome h3 {
+  padding-top: 30px;
+}
+
+.asidehome {
+    flex-basis: 30%;
+    float: right;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.asidehome ul {
+  padding: 20px;
+}
+
+section h3 {
+  margin-bottom: 20px;
+}
+
+
+.aside1, .aside2 {
+    flex-basis: 20%; 
+    background-color: lightgrey;
+    padding: 20px 60px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.aside1 h2, .aside2 h2 {
+  color: orange;
+  padding-bottom: 20px;
+}
+
+.aside1 ul li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.aside2 ul li{
+  list-style-type: none;
+}
+
+.icon {
+  font-size:larger;
+  color: orange;
+}
+
+.aside1 ul li, .aside2 ul li {
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+label {
+  padding-right: 20px;
+  font-size: 1rem;
+}
+
+progress {
+  accent-color: orange;
+  width: 50%;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: darkslategray;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+footer a {
+  color: beige;
+  text-decoration: none;
+}
+
+footer address {
+  padding-top: 12px;
+}
+
+/* Portfolio Footer styles*/
+
+.portfooter {
+  background-color: white;
+  color: black;
+  line-height: 1.3;
+}
+
+.portfooter h2 {
+  color: orange;
+  padding-bottom: 20px;
+}
+
+.portfooter a {
+  color: black;
+}
+
+.iconli {
+  padding-top: 20px;
+}
